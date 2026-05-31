@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal portfolio of Ruslan Abdrashitov, a Biomedical Engineering / Prosthetics and Orthotics student at TUKE.">
+    <title>Ruslan Abdrashitov | Biomedical Engineering Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ruslan Abdrashitov home">
+        <span class="brand-mark">RA</span>
+        <span>Ruslan Abdrashitov</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="notes/" data-i18n="nav.notes">Notes</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="language-switcher" aria-label="Language selector">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="sk" aria-pressed="false">SK</button>
+        <button type="button" data-lang="de" aria-pressed="false">DE</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">TUKE student portfolio</p>
+          <h1>Ruslan Abdrashitov</h1>
+          <p class="hero-title" data-i18n="hero.title">Biomedical Engineering / Prosthetics and Orthotics Student</p>
+          <p class="hero-text" data-i18n="hero.text">I am a student from Kazakhstan studying in Slovakia at the Technical University of Košice. I am building a practical foundation in biomechanics, medical technology, CAD, Arduino and engineering prototyping.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-i18n="actions.viewProjects">View Projects</a>
+            <a class="button" href="#cv" data-i18n="actions.cv">CV</a>
+            <a class="button ghost" href="#contact" data-i18n="actions.contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-label="Portrait area">
+          <img src="assets/img/ruslan-test-photo.jpg" alt="Portrait of Ruslan Abdrashitov">
+          <div class="media-caption">
+            <span data-i18n="hero.photoNote">Test photo, replaceable later</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 data-i18n="about.heading">A developing engineer with a focus on useful technology</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="about.p1">I study at the Faculty of Mechanical Engineering at TUKE, Department of Biomedical Engineering and Measurement. I have completed the second year of a three-year study path and I am gradually shaping my direction around prosthetics, orthotics and biomedical technologies.</p>
+          <p data-i18n="about.p2">My current goal is to grow from theory into practical projects: sensor experiments, CAD models, Arduino prototypes and eventually a bionic hand concept. This website is meant to document that process honestly as it develops.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="skills.eyebrow">Skills</p>
+          <h2 data-i18n="skills.heading">Technical foundation</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3 data-i18n="skills.cad.title">CAD & Design</h3>
+            <p data-i18n="skills.cad.text">SolidWorks, technical drawing, concept modeling, mechanical thinking.</p>
+          </article>
+          <article class="skill-card">
+            <h3 data-i18n="skills.programming.title">Programming</h3>
+            <p data-i18n="skills.programming.text">Python basics, Arduino basics, simple technical scripts and experiments.</p>
+          </article>
+          <article class="skill-card">
+            <h3 data-i18n="skills.technical.title">Technical Skills</h3>
+            <p data-i18n="skills.technical.text">MS Office, prototyping mindset, measurement, teamwork and documentation.</p>
+          </article>
+          <article class="skill-card">
+            <h3 data-i18n="skills.languages.title">Languages</h3>
+            <p data-i18n="skills.languages.text">Russian, English, Slovak, with German planned as part of personal development.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section learning-band">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="learning.eyebrow">Current learning</p>
+          <h2 data-i18n="learning.heading">What I am actively building next</h2>
+        </div>
+        <div class="learning-list">
+          <span data-i18n="learning.item1">Arduino and sensors</span>
+          <span data-i18n="learning.item2">Embedded systems basics</span>
+          <span data-i18n="learning.item3">Biomechanics</span>
+          <span data-i18n="learning.item4">CAD modeling</span>
+          <span data-i18n="learning.item5">Biomedical technologies</span>
+          <span data-i18n="learning.item6">Technical prototyping</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading with-link">
+          <div>
+            <p class="eyebrow" data-i18n="projects.eyebrow">Projects</p>
+            <h2 data-i18n="projects.heading">Project space</h2>
+          </div>
+          <a class="text-link" href="projects/bionic-hand.html" data-i18n="projects.featuredLink">Open featured project</a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <a href="projects/bionic-hand.html" class="project-card-link">
+              <div class="project-visual hand-visual"></div>
+              <div class="project-body">
+                <p class="status" data-i18n="status.planned">Planned</p>
+                <h3 data-i18n="projects.bionic.title">Bionic Hand Concept</h3>
+                <p data-i18n="projects.bionic.text">A future learning project focused on a simple prosthetic hand mechanism, sensor control and CAD documentation.</p>
+                <div class="tags">
+                  <span>CAD</span>
+                  <span>Arduino</span>
+                  <span>Biomechanics</span>
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="project-card">
+            <div class="project-visual sensor-visual"></div>
+            <div class="project-body">
+              <p class="status" data-i18n="status.idea">Idea</p>
+              <h3 data-i18n="projects.posture.title">Smart Posture Monitor</h3>
+              <p data-i18n="projects.posture.text">A sensor-based concept for posture feedback and simple body-position measurement.</p>
+              <div class="tags"><span>Arduino</span><span>Sensors</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual app-visual"></div>
+            <div class="project-body">
+              <p class="status" data-i18n="status.idea">Idea</p>
+              <h3 data-i18n="projects.reaction.title">Reaction Time Measurement App</h3>
+              <p data-i18n="projects.reaction.text">A small experiment for measuring reaction time and presenting simple results.</p>
+              <div class="tags"><span>Python</span><span>Data</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split timeline-section">
+        <div>
+          <p class="eyebrow" data-i18n="timeline.eyebrow">Progress</p>
+          <h2 data-i18n="timeline.heading">Learning timeline</h2>
+        </div>
+        <ol class="timeline">
+          <li><span data-i18n="timeline.item1">Completed the second year at TUKE</span></li>
+          <li><span data-i18n="timeline.item2">Building a stronger CAD and technical drawing base</span></li>
+          <li><span data-i18n="timeline.item3">Starting Arduino and sensor experiments</span></li>
+          <li><span data-i18n="timeline.item4">Preparing first documented biomedical engineering projects</span></li>
+        </ol>
+      </section>
+
+      <section id="cv" class="section cv-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="cv.eyebrow">CV</p>
+          <h2 data-i18n="cv.heading">Resume downloads</h2>
+          <p data-i18n="cv.text">PDF versions will be added here when the English and Slovak CV files are ready.</p>
+        </div>
+        <div class="cv-actions">
+          <a class="button disabled" aria-disabled="true" href="#" data-i18n="cv.en">English CV coming soon</a>
+          <a class="button disabled" aria-disabled="true" href="#" data-i18n="cv.sk">Slovak CV coming soon</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.heading">Open to learning, projects and collaboration</h2>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:ruslanabdrahitov@gmail.com">
+            <span>Email</span>
+            <strong>ruslanabdrahitov@gmail.com</strong>
+          </a>
+          <a href="tel:+421952277208">
+            <span data-i18n="contact.phone">Phone</span>
+            <strong>+421 952 277 208</strong>
+          </a>
+          <a href="https://www.instagram.com/ruslanabdrahitov/" target="_blank" rel="noreferrer">
+            <span>Instagram</span>
+            <strong>@ruslanabdrahitov</strong>
+          </a>
+          <a href="#" aria-disabled="true" class="disabled-link">
+            <span>LinkedIn</span>
+            <strong data-i18n="contact.linkedin">Coming later</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Ruslan Abdrashitov</span>
+      <span data-i18n="footer.text">Biomedical Engineering / Prosthetics and Orthotics Student</span>
+    </footer>
+
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
